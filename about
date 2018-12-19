@@ -1,0 +1,11 @@
+
+generates simple classical four-voice harmony over bass obeying traditional rules
+
+python -i searchv2.py
+
+set variable cf to a list of numbers specifying the CANTUS FIRMUS (mod 7 for scale) (within four octaves)
+set len to length of cf (or shorter segment)
+
+format is (soprano, alto, tenor, bass).
+
+>>> harmonize(s,a,t) where (s,a,t) is the first chord over cf[0]
